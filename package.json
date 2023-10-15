@@ -1,0 +1,41 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write ./index.js",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.4.0",
+    "cloudscraper": "^4.6.0",
+    "eval": "^0.1.8",
+    "fca_ivan": "^1.5.2",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "googlethis": "^1.7.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.2.6",
+    "npmlog": "^7.0.1",
+    "openai": "^3.3.0",
+    "os-utils": "^0.0.14",
+    "ping": "^0.4.4",
+    "request": "^2.88.2",
+    "shoti-api": "^1.1.23",
+    "systeminformation": "^5.18.7",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "prettier": "3.0.1"
+  }
+}

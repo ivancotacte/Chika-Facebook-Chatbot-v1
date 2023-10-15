@@ -1,0 +1,32 @@
+{
+  "name": "is-hexcolor",
+  "version": "1.0.0",
+  "description": "Check that given value is valid hex color, using `hex-color-regex` - the best regex for matching hex color values",
+  "repository": "tunnckoCore/is-hexcolor",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "hex-color-regex": "~1.0.2"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0"
+  },
+  "keywords": [
+    "check",
+    "color",
+    "colors",
+    "css",
+    "css-color",
+    "hex",
+    "hex-color",
+    "hexcolor",
+    "regex",
+    "regexp",
+    "validate",
+    "value"
+  ]
+}

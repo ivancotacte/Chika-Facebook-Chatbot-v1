@@ -1,0 +1,39 @@
+{
+    "Language": "en",
+    "PreKey": "",
+    "AutoUpdate": false,
+    "MainColor": "#FF0000",
+    "MainName": "[ FCA-IVAN ]",
+    "Uptime": false,
+    "Config": "default",
+    "DevMode": false,
+    "Login2Fa": false,
+    "AutoLogin": false,
+    "BroadCast": true,
+    "AuthString": "",
+    "EncryptFeature": true,
+    "ResetDataLogin": true,
+    "AutoInstallNode": false,
+    "AntiSendAppState": true,
+    "AutoRestartMinutes": 0,
+    "RestartMQTT_Minutes": 0,
+    "Websocket_Extension": {
+        "Status": false,
+        "ResetData": false,
+        "AppState_Path": "appstate.json"
+    },
+    "HTML": {
+        "HTML": true,
+        "UserName": "Guest",
+        "MusicLink": ""
+    },
+    "AntiGetInfo": {
+        "Database_Type": "default",
+        "AntiGetThreadInfo": true,
+        "AntiGetUserInfo": true
+    },
+    "Stable_Version": {
+        "Accept": false,
+        "Version": ""
+    }
+}
