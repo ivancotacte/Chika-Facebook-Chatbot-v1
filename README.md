@@ -15,3 +15,11 @@
 - help: Display this message.
 - uid: Show your user ID.
 ~~~
+## HOW TO DEPLOY
+
+~~~
+git clone https://github.com/ivancotacte/Chika-Facebook-Chatbot-v1
+cd Chika-Facebook-Chatbot-v1
+npm install
+npm start
+~~~
