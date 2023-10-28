@@ -1,0 +1,20 @@
+
+
+
+    # Courtesy of https://replit-extension-shell-commands-lib.luisafk.repl.co
+    # Do not edit this code!
+
+    _RUN_SHELL_COMMAND_LIB_PIPE="/home/runner/$REPL_SLUG/.config/._runShellCommandLibPipe";
+    _RUN_SHELL_COMMAND_LIB_OUT_PIPE="/home/runner/$REPL_SLUG/.config/._runShellCommandLibOutPipe";
+    touch "$_RUN_SHELL_COMMAND_LIB_PIPE";
+    touch "$_RUN_SHELL_COMMAND_LIB_OUT_PIPE";
+    while true;
+      do sleep 0.1;
+      if [ -s "$_RUN_SHELL_COMMAND_LIB_PIPE" ];
+        then 
+        echo -n "" > "$_RUN_SHELL_COMMAND_LIB_OUT_PIPE";
+        bash -s < "$_RUN_SHELL_COMMAND_LIB_PIPE" &> "$_RUN_SHELL_COMMAND_LIB_OUT_PIPE";
+        echo -n "" > "$_RUN_SHELL_COMMAND_LIB_PIPE";
+        fi;
+    done &
+    
